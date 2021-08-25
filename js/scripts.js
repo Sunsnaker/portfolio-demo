@@ -1,8 +1,9 @@
 const toggleTheme = document.getElementById('toggle-theme');
 const toggleIcon = document.getElementById('toggle-icon');
 const toggleText = document.getElementById('toggle-text');
-
 const toggleColor = document.getElementById('toggle-color');
+
+const rootStyles = document.documentElement.style;
 
 toggleTheme.addEventListener('click', () => {
     document.body.classList.toggle('dark');
